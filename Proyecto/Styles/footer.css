@@ -1,0 +1,29 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    background-color: #36383f;
+    margin-top: 3px;
+}
+
+.footer-bar {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(131, 131, 131);
+    border-left: 1px solid rgb(131, 131, 131);
+    border-right: 1px solid rgb(131, 131, 131);
+    font-size: 120;
+    
+}
+
+.footer-bar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.upper-text{
+    font-size: 160%;
+}
